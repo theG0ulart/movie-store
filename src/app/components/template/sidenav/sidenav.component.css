@@ -1,0 +1,33 @@
+.nav-container {
+  background-color: gray;
+}
+
+.sidenav {
+  background-color: gray;
+  width: 200px;
+  position:fixed;
+  top: 0;
+
+}
+
+.mat-nav-button {
+  margin-bottom: 1rem;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.sidenav .mat-list a{
+  color: blue;
+  margin: auto
+}
+
+.sidenav .mat-list i {
+  padding-right: 10px;
+}
+
+.content {
+  padding: 1rem;
+  background-color: #f2f2f2;
+}

@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: gainsboro;
+  height: 100px;
+}
+
+.header a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #85fd85
+}
+
+.logo {
+  width: 130px;
+  opacity: .7;
+  transition: .2s;
+}
+
+.logo:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+.title-group {
+  padding-left: 25px;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.header .title-group i {
+  padding-right: 5px;
+}
